@@ -8,7 +8,15 @@ head, #head{
     
 }
 
+fieldset{
+    border: solid;
+    border-radius: 10px;
+}
 
+form{
+    border-color: #756477;
+
+}
 head {
     background-color: rgb(84, 19, 146);
 }
@@ -34,11 +42,22 @@ button{
     border:#756477;
     border-style: solid;
     border-radius: 10px;
-    border-width: 4px;
+    border-width: 1px;
     font-weight:400px;
     font-family: 'Solway', serif;
     color:#756477;
     position:absolute;
-    left: 50%;
+    left:50%;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
+a, #enter_move{
+    font-size: large;
+    margin:10px
+}
+
+button, #gamesubmit{
+    left: 10px;
+    margin:10px
+}
