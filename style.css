@@ -1,0 +1,44 @@
+body{
+    background-color: #f6efe9;
+    font-family: 'Solway', serif;
+    color: #756477;
+}
+head, #head{
+    font-size:x-large;
+    
+}
+
+
+head {
+    background-color: rgb(84, 19, 146);
+}
+
+table {
+    margin: .5cm;
+    border-collapse: collapse;
+    width: 40%;
+    border: 1px solid;
+    table-layout: fixed;
+    color: #00203FFF;
+    font-family: 'Solway', serif;
+}
+
+td, th{
+    border: 1px solid;
+    text-align: center;
+    padding: 10px;
+}
+
+button{
+    background-color: transparent;
+    border:#756477;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 4px;
+    font-weight:400px;
+    font-family: 'Solway', serif;
+    color:#756477;
+    position:absolute;
+    left: 50%;
+}
+
